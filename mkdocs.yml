@@ -1,0 +1,30 @@
+site_name: iNeko
+site_description: 'Cats Never Wrong!'
+site_author: 'iNeko Team'
+site_url: 'https://ineko.app'
+
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 iNeko Team'
+
+# Configuration
+theme:
+  name: 'material'
+
+# Contents
+pages:
+  - Introduction:
+    - Getting Started: index.md
+    - 关于我们: about.md
+    - 更新日志: log.md
+    - 数据库结构: database.md
+    - 目录树: tree.md
+  - API:
+    - API概览: api/introduction.md
+    - 调用方式: api/method.md
+    - 版本更迭: api/history.md
+    - 数据库相关:
+      - 数据查询: api/data/get.md
+      - 数据添加: api/data/post.md
+      - 数据更新: api/data/update.md
+      - 数据删除: api/data/patch.md
