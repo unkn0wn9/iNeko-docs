@@ -27,6 +27,8 @@ pages:
     - 版本更迭: api/history.md
     - 识别相关接口:
       - Face: api/recogn/face.md
+      - Search: api/recogn/search.md
+      - Identify: api/recogn/identify.md
     - 猫咪数据相关接口:
       - 获取所有信息: api/cats/list.md
       - 获取单一信息: api/cats/get.md
