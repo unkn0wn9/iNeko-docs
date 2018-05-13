@@ -2,34 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    <url>
+     <loc>https://ineko.cn/</loc>
+     <lastmod>2018-05-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
-     <loc>https://ineko.app/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/introduction/about/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app/about/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/introduction/log/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app/log/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/introduction/database/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app/database/</loc>
-     <lastmod>2018-05-12</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://ineko.app/tree/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/introduction/tree/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -38,25 +40,37 @@
     
         
     <url>
-     <loc>https://ineko.app/api/introduction/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/api/introduction/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app/api/method/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app/api/history/</loc>
-     <lastmod>2018-05-12</lastmod>
+     <loc>https://ineko.cn/api/history/</loc>
+     <lastmod>2018-05-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://ineko.app</loc>
+     <loc>https://ineko.cn</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ineko.cn</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://ineko.cn</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>

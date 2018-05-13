@@ -7,5 +7,5 @@
 |`GET` cats/eyes|返回图片中猫的眼睛信息|
 |`GET` cats/nose|返回图片中猫的鼻信息|
 |`GET` cats/mouth|返回图片中猫的嘴信息|
-
+|`POST` image|上传图片|
 

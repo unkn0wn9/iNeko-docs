@@ -25,6 +25,14 @@ pages:
       - 请求结构: api/method/request.md
       - 返回结果: api/method/response.md
     - 版本更迭: api/history.md
+    - 识别相关接口:
+      - Face: api/recogn/face.md
+    - 猫咪数据相关接口:
+      - 获取所有信息: api/cats/list.md
+      - 获取单一信息: api/cats/get.md
+    - 猫咪向量相关接口:
+      - 获取所有信息: api/cats_data/list.md
+      - 获取单一信息: api/cats_data/get.md
 
 # Search
 extra:

@@ -13,7 +13,7 @@
         <meta name="description" content="Cats Never Wrong!">
       
       
-        <link rel="canonical" href="https://ineko.app/api/data/patch/">
+        <link rel="canonical" href="https://ineko.cn/api/cats/get/">
       
       
         <meta name="author" content="iNeko Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>数据删除 - iNeko</title>
+        <title>获取单一信息 - iNeko</title>
       
     
     
@@ -76,12 +76,16 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
+      <a href="#_1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://ineko.app" title="iNeko" class="md-header-nav__button md-logo">
+        <a href="https://ineko.cn" title="iNeko" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -98,7 +102,7 @@
                 iNeko
               </span>
               <span class="md-header-nav__topic">
-                数据删除
+                获取单一信息
               </span>
             
           
@@ -168,15 +172,27 @@
       
 
 
+  <li class="md-nav__item">
+    <a href="../../.." title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
-    <label class="md-nav__link" for="nav-1">
+    <label class="md-nav__link" for="nav-2">
       Introduction
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-1">
+      <label class="md-nav__title" for="nav-2">
         Introduction
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -188,19 +204,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../.." title="Getting Started" class="md-nav__link">
-      Getting Started
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../about/" title="关于我们" class="md-nav__link">
+    <a href="../../../introduction/about/" title="关于我们" class="md-nav__link">
       关于我们
     </a>
   </li>
@@ -212,7 +216,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../log/" title="更新日志" class="md-nav__link">
+    <a href="../../../introduction/log/" title="更新日志" class="md-nav__link">
       更新日志
     </a>
   </li>
@@ -224,7 +228,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../database/" title="数据库结构" class="md-nav__link">
+    <a href="../../../introduction/database/" title="数据库结构" class="md-nav__link">
       数据库结构
     </a>
   </li>
@@ -236,7 +240,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../tree/" title="目录树" class="md-nav__link">
+    <a href="../../../introduction/tree/" title="目录树" class="md-nav__link">
       目录树
     </a>
   </li>
@@ -256,13 +260,13 @@
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
-    <label class="md-nav__link" for="nav-2">
+    <label class="md-nav__link" for="nav-3">
       API
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+      <label class="md-nav__title" for="nav-3">
         API
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -285,10 +289,46 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../../method/" title="调用方式" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
       调用方式
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        调用方式
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../method/request/" title="请求结构" class="md-nav__link">
+      请求结构
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../method/response/" title="返回结果" class="md-nav__link">
+      返回结果
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -308,19 +348,17 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
     
-    <label class="md-nav__link" for="nav-2-4">
-      数据库相关
+    <label class="md-nav__link" for="nav-3-4">
+      识别相关接口
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-4">
-        数据库相关
+      <label class="md-nav__title" for="nav-3-4">
+        识别相关接口
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -331,9 +369,14 @@
 
 
   <li class="md-nav__item">
-    <a href="../get/" title="数据查询" class="md-nav__link">
-      数据查询
+    <a href="../../recogn/face/" title="Face" class="md-nav__link">
+      Face
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -341,13 +384,22 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../post/" title="数据添加" class="md-nav__link">
-      数据添加
-    </a>
-  </li>
 
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" checked>
+    
+    <label class="md-nav__link" for="nav-3-5">
+      猫咪数据相关接口
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        猫咪数据相关接口
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
           
@@ -355,8 +407,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../update/" title="数据更新" class="md-nav__link">
-      数据更新
+    <a href="../list/" title="获取所有信息" class="md-nav__link">
+      获取所有信息
     </a>
   </li>
 
@@ -373,10 +425,133 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
     
-    <a href="./" title="数据删除" class="md-nav__link md-nav__link--active">
-      数据删除
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        获取单一信息
+      </label>
+    
+    <a href="./" title="获取单一信息" class="md-nav__link md-nav__link--active">
+      获取单一信息
     </a>
     
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="接口描述" class="md-nav__link">
+    接口描述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="请求方式" class="md-nav__link">
+    请求方式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="请求地址" class="md-nav__link">
+    请求地址
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="输入参数" class="md-nav__link">
+    输入参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="输出参数" class="md-nav__link">
+    输出参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" title="示例" class="md-nav__link">
+    示例
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="输出" class="md-nav__link">
+    输出
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
+    
+    <label class="md-nav__link" for="nav-3-6">
+      猫咪向量相关接口
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-6">
+        猫咪向量相关接口
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cats_data/list/" title="获取所有信息" class="md-nav__link">
+      获取所有信息
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cats_data/get/" title="获取单一信息" class="md-nav__link">
+      获取单一信息
+    </a>
   </li>
 
         
@@ -397,15 +572,145 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="接口描述" class="md-nav__link">
+    接口描述
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="请求方式" class="md-nav__link">
+    请求方式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="请求地址" class="md-nav__link">
+    请求地址
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="输入参数" class="md-nav__link">
+    输入参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="输出参数" class="md-nav__link">
+    输出参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" title="示例" class="md-nav__link">
+    示例
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="输出" class="md-nav__link">
+    输出
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>数据删除</h1>
+                  <h1>获取单一信息</h1>
                 
-                
+                <h2 id="_1">接口描述</h2>
+<p>本接口用于获取数据库中某一只猫咪的数据信息。</p>
+<h2 id="_2">请求方式</h2>
+<p><code>GET</code></p>
+<h2 id="_3">请求地址</h2>
+<p><code>api.ineko.cn/cats/&lt;cat_id&gt;</code></p>
+<h2 id="_4">输入参数</h2>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>参数说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>猫咪的id</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">输出参数</h2>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>参数说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cats_info</td>
+<td>含有单一猫咪信息的序列</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">示例</h2>
+<h3 id="_7">输出</h3>
+<pre><code>{
+    "response": {
+        "cat_info": [
+            [
+                1,
+                "\u00e7\u009a\u00ae\u00e7\u009a\u00ae",
+                5,
+                "\u00e4\u00b8\u00ad\u00e5\u008d\u008e\u00e7\u0094\u00b0\u00e5\u009b\u00ad\u00e7\u008c\u00ab",
+                null,
+                null,
+                "\u00e5\u008c\u0097\u00e4\u00ba\u00ac"
+            ]
+        ]
+    }
+}
+</code></pre>
                 
                   
                 
@@ -426,7 +731,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../update/" title="数据更新" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../list/" title="获取所有信息" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -435,11 +740,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                数据更新
+                获取所有信息
               </span>
             </div>
           </a>
         
+        
+          <a href="../../cats_data/list/" title="获取所有信息" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                获取所有信息
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
