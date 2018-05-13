@@ -171,6 +171,96 @@
             "title": "\u8f93\u51fa"
         },
         {
+            "location": "/api/recogn/search/",
+            "text": "\u63a5\u53e3\u63cf\u8ff0\n\n\n\u672c\u63a5\u53e3\u7528\u4e8e\u641c\u7d22\u6570\u636e\u5e93\u4e2d\u662f\u5426\u6709\u4e0e\u63d0\u4ea4\u7684\u732b\u8138\u4fe1\u606f\u5339\u914d\u6216\u76f8\u4f3c\u7684\u5185\u5bb9\n\n\n\u8bf7\u6c42\u65b9\u5f0f\n\n\nGET\n\n\n\u8bf7\u6c42\u5730\u5740\n\n\napi.ineko.cn/search\n\n\n\u8f93\u5165\u53c2\u6570\n\n\n\n\n\n\n\n\n\u53c2\u6570\u540d\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\n\n\n\n\n\n\nurl\n\n\n\u9700\u8981\u8fdb\u884c\u8bc6\u522b\u7684URL\n\n\n\n\n\n\n\n\n\u8f93\u51fa\u53c2\u6570\n\n\n\n\n\n\n\n\n\u53c2\u6570\u540d\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\n\n\n\n\n\n\ncats_list\n\n\n\n\n\n\n\n\n\n\n\u793a\u4f8b\n\n\n\u8f93\u5165\n\n\nurl:https://raw.githubusercontent.com/El-Chiang/iNeko/master/images/pipi/63.jpg\n\n\n\n\u8f93\u51fa\n\n\n{\n    \"response\": {\n        \"cats_list\": [\n            \"pipi\":{\n                \"similar\":\"96.2%\"\n            }\n            \"poli\":{\n                \"similar\":\"36.2%\"\n            }\n        ]\n    }\n}",
+            "title": "Search"
+        },
+        {
+            "location": "/api/recogn/search/#_1",
+            "text": "\u672c\u63a5\u53e3\u7528\u4e8e\u641c\u7d22\u6570\u636e\u5e93\u4e2d\u662f\u5426\u6709\u4e0e\u63d0\u4ea4\u7684\u732b\u8138\u4fe1\u606f\u5339\u914d\u6216\u76f8\u4f3c\u7684\u5185\u5bb9",
+            "title": "\u63a5\u53e3\u63cf\u8ff0"
+        },
+        {
+            "location": "/api/recogn/search/#_2",
+            "text": "GET",
+            "title": "\u8bf7\u6c42\u65b9\u5f0f"
+        },
+        {
+            "location": "/api/recogn/search/#_3",
+            "text": "api.ineko.cn/search",
+            "title": "\u8bf7\u6c42\u5730\u5740"
+        },
+        {
+            "location": "/api/recogn/search/#_4",
+            "text": "\u53c2\u6570\u540d  \u53c2\u6570\u8bf4\u660e      url  \u9700\u8981\u8fdb\u884c\u8bc6\u522b\u7684URL",
+            "title": "\u8f93\u5165\u53c2\u6570"
+        },
+        {
+            "location": "/api/recogn/search/#_5",
+            "text": "\u53c2\u6570\u540d  \u53c2\u6570\u8bf4\u660e      cats_list",
+            "title": "\u8f93\u51fa\u53c2\u6570"
+        },
+        {
+            "location": "/api/recogn/search/#_6",
+            "text": "",
+            "title": "\u793a\u4f8b"
+        },
+        {
+            "location": "/api/recogn/search/#_7",
+            "text": "url:https://raw.githubusercontent.com/El-Chiang/iNeko/master/images/pipi/63.jpg",
+            "title": "\u8f93\u5165"
+        },
+        {
+            "location": "/api/recogn/search/#_8",
+            "text": "{\n    \"response\": {\n        \"cats_list\": [\n            \"pipi\":{\n                \"similar\":\"96.2%\"\n            }\n            \"poli\":{\n                \"similar\":\"36.2%\"\n            }\n        ]\n    }\n}",
+            "title": "\u8f93\u51fa"
+        },
+        {
+            "location": "/api/recogn/identify/",
+            "text": "\u63a5\u53e3\u63cf\u8ff0\n\n\n\u672c\u63a5\u53e3\u7528\u4e8e\u641c\u7d22\u6570\u636e\u5e93\u4e2d\u662f\u5426\u6709\u4e0e\u63d0\u4ea4\u7684\u732b\u8138\u4fe1\u606f\u5339\u914d\u6216\u76f8\u4f3c\u7684\u5185\u5bb9\n\n\n\u8bf7\u6c42\u65b9\u5f0f\n\n\nGET\n\n\n\u8bf7\u6c42\u5730\u5740\n\n\napi.ineko.cn/identify\n\n\n\u8f93\u5165\u53c2\u6570\n\n\n\n\n\n\n\n\n\u53c2\u6570\u540d\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\n\n\n\n\n\n\nurl\n\n\n\u9700\u8981\u8fdb\u884c\u8bc6\u522b\u7684URL\n\n\n\n\n\n\n\n\n\u8f93\u51fa\u53c2\u6570\n\n\n\n\n\n\n\n\n\u53c2\u6570\u540d\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\n\n\n\n\n\n\nid\n\n\n\u732b\u7684id\n\n\n\n\n\n\nname\n\n\n\u732b\u7684\u59d3\u540d\n\n\n\n\n\n\n\n\n\u793a\u4f8b\n\n\n\u8f93\u5165\n\n\nurl:https://raw.githubusercontent.com/El-Chiang/iNeko/master/images/pipi/63.jpg\n\n\n\n\u8f93\u51fa\n\n\n{\n    \"response\": {\n        \"id\": 1,\n        \"cat\": \"pipi\"\n    }\n}",
+            "title": "Identify"
+        },
+        {
+            "location": "/api/recogn/identify/#_1",
+            "text": "\u672c\u63a5\u53e3\u7528\u4e8e\u641c\u7d22\u6570\u636e\u5e93\u4e2d\u662f\u5426\u6709\u4e0e\u63d0\u4ea4\u7684\u732b\u8138\u4fe1\u606f\u5339\u914d\u6216\u76f8\u4f3c\u7684\u5185\u5bb9",
+            "title": "\u63a5\u53e3\u63cf\u8ff0"
+        },
+        {
+            "location": "/api/recogn/identify/#_2",
+            "text": "GET",
+            "title": "\u8bf7\u6c42\u65b9\u5f0f"
+        },
+        {
+            "location": "/api/recogn/identify/#_3",
+            "text": "api.ineko.cn/identify",
+            "title": "\u8bf7\u6c42\u5730\u5740"
+        },
+        {
+            "location": "/api/recogn/identify/#_4",
+            "text": "\u53c2\u6570\u540d  \u53c2\u6570\u8bf4\u660e      url  \u9700\u8981\u8fdb\u884c\u8bc6\u522b\u7684URL",
+            "title": "\u8f93\u5165\u53c2\u6570"
+        },
+        {
+            "location": "/api/recogn/identify/#_5",
+            "text": "\u53c2\u6570\u540d  \u53c2\u6570\u8bf4\u660e      id  \u732b\u7684id    name  \u732b\u7684\u59d3\u540d",
+            "title": "\u8f93\u51fa\u53c2\u6570"
+        },
+        {
+            "location": "/api/recogn/identify/#_6",
+            "text": "",
+            "title": "\u793a\u4f8b"
+        },
+        {
+            "location": "/api/recogn/identify/#_7",
+            "text": "url:https://raw.githubusercontent.com/El-Chiang/iNeko/master/images/pipi/63.jpg",
+            "title": "\u8f93\u5165"
+        },
+        {
+            "location": "/api/recogn/identify/#_8",
+            "text": "{\n    \"response\": {\n        \"id\": 1,\n        \"cat\": \"pipi\"\n    }\n}",
+            "title": "\u8f93\u51fa"
+        },
+        {
             "location": "/api/cats/list/",
             "text": "\u63a5\u53e3\u63cf\u8ff0\n\n\n\u672c\u63a5\u53e3\u7528\u4e8e\u83b7\u53d6\u6570\u636e\u5e93\u4e2d\u6240\u6709\u732b\u54aa\u7684\u6570\u636e\u4fe1\u606f\n\n\n\u8bf7\u6c42\u65b9\u5f0f\n\n\nGET\n\n\n\u8bf7\u6c42\u5730\u5740\n\n\napi.ineko.cn/cats\n\n\n\u8f93\u5165\u53c2\u6570\n\n\n\u65e0\n\n\n\u8f93\u51fa\u53c2\u6570\n\n\n\n\n\n\n\n\n\u53c2\u6570\u540d\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\n\n\n\n\n\n\ncats_list\n\n\n\u542b\u6709\u6240\u6709\u732b\u54aa\u4fe1\u606f\u7684\u5e8f\u5217\n\n\n\n\n\n\n\n\n\u793a\u4f8b\n\n\n\u8f93\u51fa\n\n\n{\n    \"reponse\": {\n        \"cats_list\": [\n            [\n                1,\n                \"\\u00e7\\u009a\\u00ae\\u00e7\\u009a\\u00ae\",\n                5,\n                \"\\u00e4\\u00b8\\u00ad\\u00e5\\u008d\\u008e\\u00e7\\u0094\\u00b0\\u00e5\\u009b\\u00ad\\u00e7\\u008c\\u00ab\",\n                null,\n                null,\n                \"\\u00e5\\u008c\\u0097\\u00e4\\u00ba\\u00ac\"\n            ],\n            [\n                2,\n                \"\\u00e8\\u0090\\u008c\\u00e8\\u0090\\u008c\",\n                3,\n                \"\\u00e7\\u008b\\u00b8\\u00e8\\u008a\\u00b1\",\n                null,\n                null,\n                \"\\u00e5\\u008c\\u0097\\u00e4\\u00ba\\u00ac\"\n            ],\n            [\n                4,\n                \"banban\",\n                null,\n                null,\n                \"123\",\n                \"123\",\n                null\n            ]\n        ]\n    }\n}",
             "title": "\u83b7\u53d6\u6240\u6709\u4fe1\u606f"

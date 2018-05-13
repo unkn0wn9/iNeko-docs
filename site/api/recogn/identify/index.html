@@ -13,7 +13,7 @@
         <meta name="description" content="Cats Never Wrong!">
       
       
-        <link rel="canonical" href="https://ineko.cn/api/cats/list/">
+        <link rel="canonical" href="https://ineko.cn/api/recogn/identify/">
       
       
         <meta name="author" content="iNeko Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>获取所有信息 - iNeko</title>
+        <title>Identify - iNeko</title>
       
     
     
@@ -102,7 +102,7 @@
                 iNeko
               </span>
               <span class="md-header-nav__topic">
-                获取所有信息
+                Identify
               </span>
             
           
@@ -348,10 +348,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" checked>
     
     <label class="md-nav__link" for="nav-3-4">
       识别相关接口
@@ -369,7 +371,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../recogn/face/" title="Face" class="md-nav__link">
+    <a href="../face/" title="Face" class="md-nav__link">
       Face
     </a>
   </li>
@@ -381,49 +383,11 @@
 
 
   <li class="md-nav__item">
-    <a href="../../recogn/search/" title="Search" class="md-nav__link">
+    <a href="../search/" title="Search" class="md-nav__link">
       Search
     </a>
   </li>
 
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../recogn/identify/" title="Identify" class="md-nav__link">
-      Identify
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" checked>
-    
-    <label class="md-nav__link" for="nav-3-5">
-      猫咪数据相关接口
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-5">
-        猫咪数据相关接口
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
         
           
           
@@ -438,11 +402,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        获取所有信息
+        Identify
       </label>
     
-    <a href="./" title="获取所有信息" class="md-nav__link md-nav__link--active">
-      获取所有信息
+    <a href="./" title="Identify" class="md-nav__link md-nav__link--active">
+      Identify
     </a>
     
       
@@ -497,7 +461,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" title="输出" class="md-nav__link">
+  <a href="#_7" title="输入" class="md-nav__link">
+    输入
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="输出" class="md-nav__link">
     输出
   </a>
   
@@ -519,13 +490,49 @@
   </li>
 
         
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5">
+    
+    <label class="md-nav__link" for="nav-3-5">
+      猫咪数据相关接口
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        猫咪数据相关接口
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="../get/" title="获取单一信息" class="md-nav__link">
+    <a href="../../cats/list/" title="获取所有信息" class="md-nav__link">
+      获取所有信息
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cats/get/" title="获取单一信息" class="md-nav__link">
       获取单一信息
     </a>
   </li>
@@ -651,7 +658,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" title="输出" class="md-nav__link">
+  <a href="#_7" title="输入" class="md-nav__link">
+    输入
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="输出" class="md-nav__link">
     输出
   </a>
   
@@ -679,16 +693,29 @@
               
                 
                 
-                  <h1>获取所有信息</h1>
+                  <h1>Identify</h1>
                 
                 <h2 id="_1">接口描述</h2>
-<p>本接口用于获取数据库中所有猫咪的数据信息</p>
+<p>本接口用于搜索数据库中是否有与提交的猫脸信息匹配或相似的内容</p>
 <h2 id="_2">请求方式</h2>
 <p><code>GET</code></p>
 <h2 id="_3">请求地址</h2>
-<p><code>api.ineko.cn/cats</code></p>
+<p><code>api.ineko.cn/identify</code></p>
 <h2 id="_4">输入参数</h2>
-<p>无</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>参数说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>url</td>
+<td>需要进行识别的URL</td>
+</tr>
+</tbody>
+</table>
 <h2 id="_5">输出参数</h2>
 <table>
 <thead>
@@ -699,44 +726,24 @@
 </thead>
 <tbody>
 <tr>
-<td>cats_list</td>
-<td>含有所有猫咪信息的序列</td>
+<td>id</td>
+<td>猫的id</td>
+</tr>
+<tr>
+<td>name</td>
+<td>猫的姓名</td>
 </tr>
 </tbody>
 </table>
 <h2 id="_6">示例</h2>
-<h3 id="_7">输出</h3>
+<h3 id="_7">输入</h3>
+<pre><code>url:https://raw.githubusercontent.com/El-Chiang/iNeko/master/images/pipi/63.jpg
+</code></pre>
+<h3 id="_8">输出</h3>
 <pre><code>{
-    "reponse": {
-        "cats_list": [
-            [
-                1,
-                "\u00e7\u009a\u00ae\u00e7\u009a\u00ae",
-                5,
-                "\u00e4\u00b8\u00ad\u00e5\u008d\u008e\u00e7\u0094\u00b0\u00e5\u009b\u00ad\u00e7\u008c\u00ab",
-                null,
-                null,
-                "\u00e5\u008c\u0097\u00e4\u00ba\u00ac"
-            ],
-            [
-                2,
-                "\u00e8\u0090\u008c\u00e8\u0090\u008c",
-                3,
-                "\u00e7\u008b\u00b8\u00e8\u008a\u00b1",
-                null,
-                null,
-                "\u00e5\u008c\u0097\u00e4\u00ba\u00ac"
-            ],
-            [
-                4,
-                "banban",
-                null,
-                null,
-                "123",
-                "123",
-                null
-            ]
-        ]
+    "response": {
+        "id": 1,
+        "cat": "pipi"
     }
 }
 </code></pre>
@@ -760,7 +767,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../recogn/identify/" title="Identify" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../search/" title="Search" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -769,19 +776,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Identify
+                Search
               </span>
             </div>
           </a>
         
         
-          <a href="../get/" title="获取单一信息" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../cats/list/" title="获取所有信息" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                获取单一信息
+                获取所有信息
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
